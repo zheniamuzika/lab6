@@ -1,0 +1,9 @@
+import math
+a = float(input("Ввести нижню границю:"))
+b = float(input("Ввести верхню границю:"))
+h = float(input("Ввести значення кроку:"))
+x = 0.0
+while a <= x <=b:
+    y = (math.sin(x)*math.cos(2*x)/math.pow(3,2*x-3))
+    print("x=%.1f y=%.5f"%(x,y))
+    x = x + h
