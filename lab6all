@@ -1,7 +1,7 @@
 import math
-a = float(input("Ввести нижню границю:"))
-b = float(input("Ввести верхню границю:"))
-h = float(input("Ввести значення кроку:"))
+a = float(input("Ввести значення а:"))
+b = float(input("Ввести значення b:"))
+h = float(input("Ввести значення кроку h:"))
 x = 0.0
 spisok=[]
 spisok1=[]
