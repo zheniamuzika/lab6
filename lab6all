@@ -2,7 +2,7 @@ import math
 a = float(input("Ввести значення а:"))
 b = float(input("Ввести значення b:"))
 h = float(input("Ввести значення кроку h:"))
-x = 0.0
+x = a
 spisok=[]
 spisok1=[]
 while  x<=b:
