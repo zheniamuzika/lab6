@@ -5,7 +5,7 @@ h = float(input("Ввести значення кроку h:"))
 x = 0.0
 spisok=[]
 spisok1=[]
-while a <= x <=b:
+while  x <=a <=b:
     y = (math.sin(x)*math.cos(2*x)/math.pow(3,2*x-3))
     spisok.append(y)
     spisok1.append(y)
