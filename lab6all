@@ -7,7 +7,7 @@ spisok=[]
 spisok1=[]
 while  x<=b:
     y = (math.sin(x)*math.cos(2*x)/math.pow(3,2*x-3))
-    spisok.append(y)
+    spisok.append(x)
     spisok1.append(y)
     print("x=%.1f y=%.5f"%(x,y))
     x = x + h
